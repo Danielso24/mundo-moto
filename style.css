@@ -1,0 +1,144 @@
+.das-bg-dark{
+    background-color:   #44556B;
+}
+
+
+.das-inter{
+    font-family: "Montserrat", sans-serif;
+}
+
+.das-title{
+    font-family: "Oswald", sans-serif;
+    color:#000000 ;
+    font-size: 30px;
+}
+
+.das-bg-dark .nav-link{
+    color: white;
+}
+
+.das-bg-dark .navbar-brand{
+    color: white;
+}
+
+.das-bg-dark .nav-link:hover{
+    color: red;
+}
+
+
+.das-banner{
+    margin-top: 30px; 
+
+    margin-bottom: 30px; 
+}
+
+
+.das-banner img{
+    width: 100%; 
+
+    height: 500px; 
+
+    display: block; 
+
+    border-radius: 15px; 
+}
+
+.das-card .card-img-top{
+    height: 250px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.das-card .card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.das-card .btn{
+    margin-top: auto;
+}
+
+.das-footer{
+    background-color: #D9D9D9;
+    color: rgb(0, 0, 0);
+}
+
+.das-footer h5{
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.das-footer p{
+    margin-bottom: 8px;
+}
+
+.das-price-table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.das-table-header {
+    background-color: black;
+    color: white;
+}
+
+.das-price-table th,
+.das-price-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.das-schedule-card {
+    background-color: #090909;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.das-schedule-title {
+    background-color: white;
+    text-align: center;
+}
+
+.das-schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.das-schedule-table th,
+.das-schedule-table td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+.das-table-header {
+    background-color: #294182;
+    color: white;
+}
+
+.das-title-contac{
+    color: white;
+
+}
+
+.das-location-card {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 75%;
+}
+
+.das-location-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.das-location-card iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
