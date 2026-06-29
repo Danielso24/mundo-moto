@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mundo de Motos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+   <link rel="stylesheet" href="style.css">
+
+   <link rel="icon" type="image/png" href="imagenes/logo-principal.png">
+
+
+</head>
+
+<body class="das-inter">
+
+<header>
+
+    <nav class="navbar navbar-expand-lg das-bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="imagenes/logo-principal.png" alt="Logo Mundo de Motos" width="100">
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav me-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">
+                            Nosotros
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="motosventa.html">
+                            Motos en Venta
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="ofertas.html">
+                            Ofertas
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="financiamiento.html">
+                            Financiamiento
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactos.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+
+                    <input class="form-control me-2"
+                           type="search"
+                           placeholder="Buscar moto">
+
+                    <button class="btn btn-outline-success"
+                            type="submit">
+
+                        Buscar
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<main>
+
+    <br>
+    <br>
+
+    <section>
+
+        <div class="container">
+
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="imagenes/opcion-1.jpeg" class="d-block w-100" alt="Moto 1">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="imagenes/opcion-2.jpeg" class="d-block w-100" alt="Moto 2">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="imagenes/opcion-3.jpeg" class="d-block w-100" alt="Moto 3">
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+                <button class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<section>
+
+    <div class="container my-5">
+
+        <h2 class="text-center  das-title">
+            Motos Destacadas
+        </h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <article>
+
+                    <div class="card h-100 shadow das-card">
+
+                        <img src="imagenes/primer-producto.png"
+                             class="card-img-top"
+                             alt="KTM Duke 200">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                KTM Duke 200
+                            </h5>
+
+                            <p class="card-text">
+                                Potencia y tecnología para la ciudad.
+                            </p>
+
+                            <button class="btn btn-danger"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#motoModal">
+
+                                Ver Detalles
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <article>
+
+                    <div class="card h-100 shadow das-card">
+
+                        <img src="imagenes/segund-producto.png"
+                             class="card-img-top"
+                             alt="Yamaha MT-15">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Yamaha MT-15
+                            </h5>
+
+                            <p class="card-text">
+                                Diseño agresivo y gran rendimiento.
+                            </p>
+
+                            <button class="btn btn-danger"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#motoModal">
+
+                                Ver Detalles
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <article>
+
+                    <div class="card h-100 shadow das-card">
+
+                        <img src="imagenes/tercer-producto.png"
+                             class="card-img-top"
+                             alt="Honda CB190R">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Honda CB190R
+                            </h5>
+
+                            <p class="card-text">
+                                Ideal para uso diario y viajes.
+                            </p>
+
+                            <button class="btn btn-danger"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#motoModal">
+
+                                Ver Detalles
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <section>
+
+        <div class="container my-5">
+
+            <article>
+
+                <video class="w-100" autoplay muted loop>
+
+                    <source src="video/inicio.mp4"
+                            type="video/mp4">
+
+                </video>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container my-5">
+
+            <h2 class="text-center  das-title">
+                Opiniones de Nuestros Clientes
+            </h2>
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <article>
+
+                        <div class="card">
+
+                            <div class="card-body">
+
+                                <h5>Carlos M.</h5>
+
+                                <p>⭐⭐⭐⭐⭐</p>
+
+                                <p>
+                                    Excelente servicio y atención.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <article>
+
+                        <div class="card">
+
+                            <div class="card-body">
+
+                                <h5>Ana R.</h5>
+
+                                <p>⭐⭐⭐⭐</p>
+
+                                <p>
+                                    Muy buenos precios.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <article>
+
+                        <div class="card">
+
+                            <div class="card-body">
+
+                                <h5>José P.</h5>
+
+                                <p>⭐⭐⭐⭐⭐</p>
+
+                                <p>
+                                    Motos en excelente estado.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<div class="modal fade"
+     id="motoModal"
+     tabindex="-1">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title">
+                    Información de la Moto
+                </h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                Moto deportiva con excelente rendimiento y tecnología moderna.
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+
+                    Cerrar
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer class="das-footer">
+
+    <div class="container py-4">
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <article>
+
+                    <h5 class="das-title">Mundo de Motos</h5>
+
+                    <p>
+                        Especialistas en motocicletas para ciudad,
+                        aventura y velocidad.
+                    </p>
+
+                </article>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <article>
+
+                    <h5  class="das-title">Redes Sociales</h5>
+
+                    <p>Facebook: @MundoDeMotos</p>
+
+                    <p>Instagram: @MundoDeMotos</p>
+
+                    <p>TikTok: @MundoDeMotos</p>
+
+                    <p>WhatsApp: +51 999 999 999</p>
+
+                </article>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <article>
+
+                    <h5 class="das-title">Información</h5>
+
+                    <img src="imagenes/libro-reclamaciones.png"
+                         alt="Libro de Reclamaciones"
+                         width="120">
+
+                    <br>
+                    <br>
+
+                    <img src="imagenes/medios-de-pago.png"
+                         alt="Medios de Pago"
+                         width="220">
+
+                </article>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <p class="text-center mb-0 ">
+            © 2026 Mundo de Motos - Todos los derechos reservados
+            Hecho por Daniel Asmat
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
